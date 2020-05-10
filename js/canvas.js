@@ -62,8 +62,10 @@ class Canvas {
       this._context.backingStorePixelRatio || 1;
     this._ratio = devicePixelRatio / backingStoreRatio;
 
-    let oldWidth = document.body.clientWidth;
-    let oldHeight = document.body.clientHeight;
+    //let oldWidth = document.body.clientWidth;
+    //let oldHeight = document.body.clientHeight;
+    let oldWidth = 400;
+    let oldHeight = 300;
     this._canvas.style.background = this._background;
     this._canvas.width = oldWidth;
     this._canvas.height = oldHeight;
